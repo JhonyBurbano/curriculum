@@ -1,0 +1,20 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "Curriculum desarrollado coreac js con la comunidad de Facebook Developer Circle: Bogotá",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonyBurbano/curriculum.git"
+  },
+  "keywords": [],
+  "author": "Jhony Burbano <jhonyburbanojb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhonyBurbano/curriculum/issues"
+  },
+  "homepage": "https://github.com/JhonyBurbano/curriculum#readme"
+}
