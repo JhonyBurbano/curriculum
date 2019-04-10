@@ -1,12 +1,16 @@
 import React from 'react';
 
-const Experience = () => (
+const Experience = props => (
 	<div className="Experience">
 		<div className="Experience-container">
-			<div className="Experience-item">
-				<h3>SAS</h3>
-				<p>lorem ipsus</p>
+		{props.data.map((exp, index) => (
+			<div className="Experience-item" key={`Exp-${index}`}>
+				<h3>{exp.company} - {exp.jobTitle}
+					<span>{exp.endDate} - {exp.startDate}</span>
+				</h3>
+				<p>{exp.jobDescription}</p>
 			</div>
+		))}
 		</div>
 	</div>
 );
