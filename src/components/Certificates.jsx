@@ -1,7 +1,9 @@
 import React from 'react';
+import H2Styled from '../styled/H2Styled';
 
 const Certificates = props => (
 	<div className="Certificates">
+		<H2Styled name="CERTIFICADOS" /><hr/>
 		<div className="Certificates-container">
 		{props.data.map((cer, index) => (
 			<div className="Certificates-item" key={`Cert-${index}`}>

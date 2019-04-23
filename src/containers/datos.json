@@ -1,6 +1,6 @@
 {
 	"address": "Cali, Colombia.",
-	"avatar": "https://s3.amazonaws.com/chewiekie/img/photo.jpg",
+	"avatar": "https://www.movimientojfgil.com/bsbmd/images/tuytus50.png",
 	"bio": "Tecnólogo de Sistemas, manejo y manipulación de la información aplicando análisis, diseño y construcción de soluciones informáticas que se ajusten a las necesidades y condiciones de cualquier organización. ",
 	"name": "Jhony Burbano",
 	"profession": "BackEnd Developer",
@@ -20,53 +20,112 @@
 	],
 	"education": [
 			{
-			"degree": "Atomic Master",
-			"description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-			"endDate": "Jan 2017",
-			"institution": "MIT",
-			"startDate": "Jan 2018"
+			"degree": "Cursos y Carreras",
+			"description": "",
+			"endDate": "Enero 2018",
+			"institution": "PLATZI",
+			"startDate": "Enero 2019"
 			},
 			{
-			"degree": "Space Engineering",
-			"description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-			"endDate": "Decenber 2015",
-			"institution": "Harvard",
-			"startDate": "Jan 2017"
+			"degree": "Análisis y desarrollo de sistema de información",
+			"description": "",
+			"endDate": "Agosto 2012",
+			"institution": "SERVICIO NACIONAL DE APRENDIZAJE (SENA)",
+			"startDate": "Octubre 2015"
+			},
+			{
+			"degree": "Tecnólogo en Sistemas",
+			"description": "",
+			"endDate": "Agosto 2006",
+			"institution": "CORPORACION UNIVERSITARIA MINUTO DE DIOS - UNIMINUTO",
+			"startDate": "Octubre 2010"
 			}
 	],
 	"experience": [
 			{
-			"company": "PugStar",
-			"endDate": "Present",
-			"jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-			"jobTitle": "Frontend",
-			"startDate": "Jan 2020"
+			"company": "Freelance",
+			"endDate": "Diciembre 2018",
+			"jobDescription": [
+					{
+						"name": "Diseño y desarrollo de aplicativo web TU Y TUS 50. LARAVEL y BD MYSQL: Concejal Henry Peláez",
+						"url": "https://www.movimientojfgil.com"
+					}
+				],
+			"jobTitle": "BackEnd",
+			"startDate": "Septiembre 2018"
 			},
 			{
-			"company": "CatStore",
-			"endDate": "Jan 2016",
-			"jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+			"company": "Freelance",
+			"endDate": "Agosto 2018",
+			"jobDescription": [
+					{
+						"name": "Arreglos y modificaciones en aplicativo web de inventarios de colegio. CAKEPHP y BD MYSQL",
+						"url": "http://api.calidadsg.com/inventarios/"
+					}
+				],
 			"jobTitle": "Backend",
-			"startDate": "Sept 2019"
+			"startDate": "Febrero 2018"
+			},
+			{
+			"company": "ORGANIZACIÓN TALUMM",
+			"endDate": "Enero 2018",
+			"jobDescription": [
+					{
+						"name": "Diseñador y desarrollador de software orientado a la Web. Framework LARAVEL, MYSQL",
+						"url": ""
+					},
+					{
+						"name": "Arreglos y modificaciones en PHP de aplicaciones o paginas hechas por la organización",
+						"url": "http://globalnetworkteam.net/"
+					}
+				],
+			"jobTitle": "Analista, Programador y Líder de Proyecto",
+			"startDate": "Febrero 2017"
+			},
+			{
+			"company": "GRUPO CORPORATIVO CREEMOS",
+			"endDate": "Diciembre 2016",
+			"jobDescription": [
+					{
+						"name": "Analizar, planificar el desarrollo de la aplicación INTEGRASIGS.COM (Requerimientos, Diagramas, BD)",
+						"url": ""
+					},
+					{
+						"name": "Desarrollar y diseñar en Framework CAKEPHP y BOOTSTRAP, MYSQL la aplicación.",
+						"url": "http://integrasigs.com"
+					}
+				],
+			"jobTitle": "Analista y Programador",
+			"startDate": "Marzo 2014"
 			}
 	],
 	"skills": [
 			{
 			"name": "HTML5",
+			"minus": "html5",
 			"percentage": "75%"
 			},
 			{
 			"name": "CSS",
+			"minus": "css3",
 			"percentage": "25%"
 			},
 			{
+			"name": "Laravel",
+			"minus": "laravel",
+			"percentage": "75%"
+			},
+			{
 			"name": "JavaScript",
+			"minus": "js",
 			"percentage": "55%"
 			},
 			{
 			"name": "React",
-			"percentage": "90%"
+			"minus": "react",
+			"percentage": "20%"
 			}
+			
 			],
 			"social": [
 			{
