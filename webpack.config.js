@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 // Creación de modulo
 module.exports = {
 	// Entrada que permite colocar cual es el elemento principal a tener encuenta o escuchar
@@ -43,6 +44,7 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: "./public/index.html",
 			flie: "./index.html"
-		})
+		}),
+		new FaviconsWebpackPlugin('./public/icon.png'),
 	]
 }
