@@ -8,12 +8,13 @@ const SocialStyled = styled.div`
 
 const SocialUlStyled = styled.ul`
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 `;
 
 const SocialLiStyled = styled.li`
 	display: inline;
+	border-radius: 100%;
+	background: #fff;
+	padding: 6px;
 	margin: 0 1em 0 0;
 `;
 
@@ -67,8 +68,8 @@ const Social = props => (
 		{props.social &&
 			<SocialUlStyled>
 				{props.social.map((item, index) => (
-					<SocialLiStyled key={`social-${index}`} target="_blank">
-						<SocialAnchor href={item.url}>
+					<SocialLiStyled key={`social-${index}`}>
+						<SocialAnchor href={item.url} target="_blank">
 							<ThemeProvider theme={getColor(item.name)}>
 								<SocialIcon className={`fab fa-${item.name}`} />
 							</ThemeProvider>

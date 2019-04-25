@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import H2Styled from '../styled/H2Styled';
+import Empresas from './Empresas';
 
 const SkillsContainer = styled.div`
 	display: grid;
@@ -98,6 +99,7 @@ const Skills = props => (
 			</SkillsItem>
 		))}
 		</SkillsContainer>
+		<Empresas data={props.empresa} />
 	</div>
 );
 

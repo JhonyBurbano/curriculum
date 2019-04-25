@@ -3,18 +3,16 @@ import Social from './Social'
 import styled from 'styled-components'
 
 const AboutStyle = styled.div`
+	color: #fff;
 	text-align: center;
+	padding: 0 5px 5px 5px;
 `; 
-
-const AboutAvatar = styled.div`
-	padding: 2em 0 0 0;
-`;
 
 const AboutImg = styled.img`
 	border-radius: 100%;
 	width: 160px;
 	height: 160px;
-	border: 2px solid #4b6577;
+	border: 2px solid #fff;
 	margin: 0 auto;
 	display: block;
 	box-shadow: 0 0 10px rbga(0, 0, 0, 0.6)
@@ -29,31 +27,28 @@ const AboutH2 = styled.h2`
 	font-weight: 600;
 	letter-spacing: 1.2px;
 	margin: .5em 0 0 0;
-	color: #4b6577;
+	color: #fff;
 `;
 
 const AboutProfession = styled.p`
 	margin: .2em 0 1em 0;
 	letter-spacing: 1.6px;
 	font-weight: 300;
-	color: #4b6577;
+	color: #fff;
 `;
 
 const AboutBio = styled.div`
-	color: #4b6577;
 	font-size: 1em;
 	font-weight: 300;
 	text-align: justify;
 `;
 
 const AboutLocation = styled.div`
-	color: #4b6577;
 	font-size: 1em;
 	font-weight: 300;
 `;
 
 const AboutUl = styled.div`
-	color: #4b6577;
     list-style: none; 
 	font-weight: 300;
     padding: 0;
@@ -66,20 +61,27 @@ const AboutLi = styled.div`
     padding: 0 0 5px 0;
 `;
 
-const About = ({ avatar, name, profession, bio, address, social }) => (
+const About = ({ avatar, name, profession, email, telephone, bio, address, social }) => (
 	<AboutStyle>
 		<div className="About-container">
-			<AboutAvatar>
+			<div>
 				<figure>
 					<AboutImg src={avatar} alt={name} />
 				</figure>
-			</AboutAvatar>
+			</div>
 			<AboutName>
 				<AboutH2>{name}</AboutH2>
 			</AboutName>
 			<AboutProfession>
 				{profession}
 			</AboutProfession>
+			<hr/>
+				<span>{telephone}</span><br/>
+				<span>{email}</span>
+				<AboutLocation>
+					<span>{address}</span>
+				</AboutLocation>
+			<hr/>
 			<AboutBio>
 				<p>{bio}</p>
 			</AboutBio>
@@ -92,9 +94,6 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
 desarrollo de proyectos.</AboutLi>
 				<AboutLi><i className="fa fa-check"></i>Diseño Web HTML, HTML5, Css </AboutLi>
 			</AboutUl>
-			<AboutLocation>
-				<p>{address}</p>
-			</AboutLocation>
 			<div className="About-social">
 				<Social social={social} />
 			</div>

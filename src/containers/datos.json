@@ -6,17 +6,47 @@
 	"profession": "BackEnd Developer",
 	"certificate": [
 			{
-			"date": "Jan 2021",
-			"description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+			"date": "Febrero 2021",
+			"description": "",
 			"institution": "Platzi",
-			"name": "FrontEnd Developer"
+			"name": "Curso Gratis de Programación Básica",
+			"url": "https://platzi.com/@JhonyBurbano08/curso/1050-programacion-basica/diploma/detalle/"
 			},
 			{
-			"date": "Jan 2021",
-			"description": "Scratch at the door then walk away wack the mini furry mouse",
+			"date": "Mayo 2018",
+			"description": "",
 			"institution": "Platzi",
-			"name": "Backend Developer"
-			}
+			"name": "Curso de React.js 2017",
+			"url": "https://platzi.com/@JhonyBurbano08/curso/1199-react-2017/diploma/detalle/"
+			},
+			{
+			"date": "Julio 2018",
+			"description": "",
+			"institution": "Platzi",
+			"name": "Curso de PHP con Laravel 2017",
+			"url": "https://platzi.com/@JhonyBurbano08/curso/1122-curso-php-laravel-2017/diploma/detalle/"
+			},
+			{
+			"date": "Octubre 2018",
+			"description": "",
+			"institution": "Platzi",
+			"name": "Curso de Desarrollo Web Online",
+			"url": "https://platzi.com/@JhonyBurbano08/curso/1350-html5-css3/diploma/detalle/"
+			},
+			{
+			"date": "Octubre 2018",
+			"description": "",
+			"institution": "Platzi",
+			"name": "Curso de Responsive Design",
+			"url": "https://platzi.com/@JhonyBurbano08/curso/1362-responsive-design/diploma/detalle/"
+			},
+			{
+			"date": "Noviembre 2018",
+			"description": "",
+			"institution": "Platzi",
+			"name": "Curso de jQuery a JavaScript",
+			"url": "https://platzi.com/@JhonyBurbano08/curso/1316-jquery-js/diploma/detalle/"
+			},
 	],
 	"education": [
 			{
