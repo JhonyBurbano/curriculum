@@ -87,7 +87,7 @@ const About = ({ avatar, name, profession, email, telephone, bio, address, socia
 			</AboutBio>
 			<AboutUl>
 				<AboutLi><i className="fa fa-check"></i>Manejo de Bases de Datos SQL Server, MSQL</AboutLi>
-				<AboutLi><i className="fa fa-check"></i>Manejo de Lenguaje Php, Javascript, Jquery, Ajax</AboutLi>
+				<AboutLi><i className="fa fa-check"></i>Manejo de Lenguaje Php, Javascript, Jquery, Ajax, NodeJs</AboutLi>
 				<AboutLi><i className="fa fa-check"></i>Manejo de Framework Cakephp, Laravel, Bootstrap</AboutLi>
 				<AboutLi><i className="fa fa-check"></i>Administración Cpanel (Hosting) en servidores linux</AboutLi>
 				<AboutLi><i className="fa fa-check"></i>Habilidad para trabajar con equipos interdisciplinarios en la evaluación, formulación, y
